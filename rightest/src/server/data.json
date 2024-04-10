@@ -1,80 +1,60 @@
 {
-  "home_4picture": [
+  "getData": [
     {
-      "url": "https://imgessl.kugou.com/custom/150/20230812/20230812111558822994.jpg",
-      "title": "“是我们相遇的意义”次国神曲SVT",
-      "id": "1836"
+      "name": "羽生麻衣",
+      "icon": "https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png",
+      "date": "03/01",
+      "substance": {
+        "text": "asdasdassaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "images": "https://web-f01.izuiyou.com/img/webp/id/2363300927/sz/360?auth_key=1712760431-0-0-8681928c09c266d2ae537f03199dee00"
+      }
     },
     {
-      "url": "https://imgessl.kugou.com/custom/150/20221015/20221015110004416998.jpg",
-      "title": "“是我们相遇的意义”次国神曲SVT",
-      "id": "7a76"
+      "name": "最右解忧官",
+      "icon": "\thttps://tbfile.ixiaochuan.cn/account/avatar/id/2361590014/sz/228",
+      "date": "03/05",
+      "substance": {
+        "text": "网友投稿：句句不提，字字都是。",
+        "images": "https://web-f01.izuiyou.com/img/webp/id/2363300927/sz/360?auth_key=1712760431-0-0-8681928c09c266d2ae537f03199dee00"
+      }
     },
     {
-      "url": "https://imgessl.kugou.com/custom/150/20240204/20240204071357970915.jpg",
-      "title": "“是我们相遇的意义”次国神曲SVT",
-      "id": "65f9"
-    },
-    {
-      "url": "https://imgessl.kugou.com/custom/150/20230901/20230901001735267199.jpg",
-      "title": "“是我们相遇的意义”次国神曲SVT",
-      "id": "21cd"
+      "name": "最右解忧官",
+      "icon": "https://tbfile.ixiaochuan.cn/account/avatar/id/2361590014/sz/228",
+      "date": "03/06",
+      "substance": {
+        "text": "这到底是一个什么样的男孩",
+        "images": "http://web-f01.izuiyou.com/img/webp/id/2363093449/sz/src?auth_key=1712760431-0-0-e15f13b780a24a10bf717a493214281a"
+      }
     }
   ],
-  "soaring": {
-    "data": ["张杰-这就是爱","林俊杰-小酒窝","许嵩-asd演员"]
+  "getUserInfo": {
+    "name":"乔里奥",
+    "tel":"",
+    "city":"苏州",
+    "remarks":"s啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+    "address":"江苏省苏州市吴中区吴中大道1188号"
   },
-  "top": {
-    "data": ["李健-啊夜曲","周杰伦-七里香","许嵩-灰色头像"]
-  },
-  "hot": {
-    "data": ["张杰-这就是爱","林俊杰-小酒窝","许嵩-asd演员"]
-  },
-  "music": {
-    "data": [
-      {
-        "name": "李健-啊夜曲",
-        "time": "4:32"
-      },
-      {
-        "name": "周杰伦-七里香",
-        "time": "4:32"
-      },
-      {
-        "name": "许嵩-灰色头像",
-        "time": "4:32"
-      },
-      {
-        "name": "周杰伦-七里香",
-        "time": "4:32"
-      },
-      {
-        "name": "周杰伦-七里香",
-        "time": "4:32"
-      },
-      {
-        "name": "李健-啊夜曲",
-        "time": "4:32"
-      },
-      {
-        "name": "周杰伦-七里香",
-        "time": "4:32"
-      },
-      {
-        "name": "许嵩-灰色头像",
-        "time": "4:32"
-      },
-      {
-        "name": "周杰伦-七里香",
-        "time": "4:32"
-      },
-      {
-        "name": "周杰伦-七里香",
-        "time": "4:32"
-      }
-    ]
-  },
-  "recommend": {
-    "data": ["白眉大侠","茅山捉鬼人","白眉大侠","茅山捉鬼人","白眉大侠","茅山捉鬼人","白眉大侠","茅山捉鬼人","白眉大侠","茅山捉鬼人","白眉大侠","茅山捉鬼人","白眉大侠","茅山捉鬼人","白眉大侠","茅山捉鬼人","白眉大侠","茅山捉鬼人"]
-  }
+  "getDataList": [
+    {
+      "name": "作品1",
+      "text": "2021-01-01",
+      "look": "北京"
+    },
+    {
+      "name": "作品2",
+      "text": "2021-01-02",
+      "look": "上海"
+    },
+    {
+      "name": "作品3",
+      "text": "2021-01-03",
+      "look": "广州"
+    },
+    {
+      "name": "作品4",
+      "text": "2021-01-04",
+      "look": "深圳"
+    }
+  ]
 }

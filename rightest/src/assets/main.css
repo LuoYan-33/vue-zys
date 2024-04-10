@@ -1,0 +1,9 @@
+.common-layout{
+    width: 100vw;
+}
+.base-div{
+    display: flex;
+    justify-content: center;
+    background-color: #e9eef3;
+    height: 100vh;
+}
