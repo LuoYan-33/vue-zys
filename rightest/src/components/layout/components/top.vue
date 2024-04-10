@@ -1,7 +1,7 @@
 <template>
   <div style="z-index: 999" class="cmhead1">
     <div class="cmhead2">
-      <img style="width: 146px;height: 38px;margin-right: 40px;" src="@/components/icons/kugou_white.png">
+      <img style="width: 146px;height: 38px;margin-right: 40px;" src="@/assets/icons/kugou_white.png">
       <topleft @Search="onSearch"></topleft>
       <div>
         <el-link>加入我们</el-link>
