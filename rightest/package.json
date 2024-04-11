@@ -17,6 +17,7 @@
     "axios": "^1.6.8",
     "element-plus": "^2.6.3",
     "json-server": "^1.0.0-alpha.23",
+    "node-uuid": "^1.4.8",
     "save": "^2.9.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",

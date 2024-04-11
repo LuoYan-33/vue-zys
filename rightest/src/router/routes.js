@@ -20,6 +20,7 @@ const routes = [
         isHide: false,
     },
 ]
+const whiteRoutes=["login","register"]
 const rootRoutes = [
     {
         path: '/',
@@ -38,5 +39,19 @@ const rootRoutes = [
         name: 'creatorHome',
         component: import('@/views/creatorHome.vue')
     },
+    {
+        path: '/login',
+        name: 'login',
+        title: '登录',
+        isHide: true,
+        component: import('@/views/login.vue')
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'notFound',
+        title: '404',
+        isHide: true,
+        component: import('@/components/404/404.vue')
+    }
 ]
-export {rootRoutes, routes}
+export {rootRoutes, routes,whiteRoutes}

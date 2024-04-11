@@ -8,7 +8,7 @@
         <el-link style="color:#999;">关于公司</el-link>
         <el-divider direction="vertical"></el-divider>
         <el-link style="margin-left: 30px;margin-right: 0;">
-          <el-button type="primary" style="width: 90px;height: 30px;border-radius: 15px;font-size: 16px">登录</el-button>
+          <el-button type="danger" style="width: 90px;height: 30px;border-radius: 15px;font-size: 16px" @click="logout">退出</el-button>
         </el-link>
       </div>
       <div></div>
@@ -21,14 +21,9 @@ import {ref} from "vue";
 import Topleft from "@/components/layout/components/topleft.vue";
 import router from "@/router/index.js";
 
-const onSearch = (text: string) => {
-  console.log(text)
-  router.push({
-    path: "/search",
-    query: {
-      text: text
-    }
-  })
+const logout = (text: string) => {
+localStorage.clear()
+  router.push('/login')
 }
 </script>
 <style scoped>
