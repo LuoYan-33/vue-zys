@@ -11,7 +11,6 @@ const routes = [
         name: 'ranking',
         title: '排行',
         isHide: false,
-        component: import('@/views/home.vue')
     },
     {
         path: '/complete',
@@ -24,6 +23,7 @@ const routes = [
         name: 'free',
         title: '免费',
         isHide: false,
+        component: import('@/views/free.vue')
     },
     {
         path: '/creator',
@@ -54,21 +54,16 @@ const rootRoutes = [
         children: routes
     },
     {
-        path: '/creator',
-        name: 'creator-n',
-        component: import('@/views/creatorCenter.vue')
-    },
-    {
-        path: '/creator-home/:info',
-        name: 'creatorHome',
-        component: import('@/views/creatorHome.vue')
-    },
-    {
-        path: '/login',
-        name: 'login',
-        title: '登录',
+        path: '/detail/:title',
+        name: 'detail',
         isHide: true,
-        component: import('@/views/login.vue')
+        component: import('@/views/detail.vue')
+    },
+    {
+        path: '/register',
+        name: 'register',
+        isHide: true,
+        component: import('@/views/register.vue')
     },
     {
         path: '/:pathMatch(.*)*',

@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+const x = () => {
+  window.open("http://localhost:1000/register")
+}
 </script>
 
 <template>
@@ -12,7 +15,7 @@
       </div>
        <div style="display:flex;">
          <div class="title">登录</div>
-         <div class="title">注册</div>
+         <div class="title" @click="x">注册</div>
        </div>
      </div>
   </div>
@@ -38,5 +41,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 </style>

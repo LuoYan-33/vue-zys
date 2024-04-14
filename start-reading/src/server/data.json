@@ -1,64 +1,107 @@
 {
-  "getData": [
-    {
-      "name": "羽生麻衣",
-      "icon": "https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png",
-      "date": "03/01",
-      "substance": {
-        "text": "asdasdassaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "images": "https://web-f01.izuiyou.com/img/webp/id/2363300927/sz/360?auth_key=1712760431-0-0-8681928c09c266d2ae537f03199dee00"
-      }
-    },
-    {
-      "name": "最右解忧官",
-      "icon": "\thttps://tbfile.ixiaochuan.cn/account/avatar/id/2361590014/sz/228",
-      "date": "03/05",
-      "substance": {
-        "text": "网友投稿：句句不提，字字都是。",
-        "images": "https://web-f01.izuiyou.com/img/webp/id/2363300927/sz/360?auth_key=1712760431-0-0-8681928c09c266d2ae537f03199dee00"
-      }
-    },
-    {
-      "name": "最右解忧官",
-      "icon": "https://tbfile.ixiaochuan.cn/account/avatar/id/2361590014/sz/228",
-      "date": "03/06",
-      "substance": {
-        "text": "这到底是一个什么样的男孩",
-        "images": "http://web-f01.izuiyou.com/img/webp/id/2363093449/sz/src?auth_key=1712760431-0-0-e15f13b780a24a10bf717a493214281a"
-      }
-    }
-  ],
-  "getUserInfo": {
-    "name": "乔里奥",
-    "tel": "",
-    "city": "苏州",
-    "remarks": "s啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
-    "address": "江苏省苏州市吴中区吴中大道1188号"
+  "boy": {
+    "tabList": [
+      "全部",
+      "玄幻",
+      "奇幻",
+      "武侠",
+      "仙侠",
+      "都市",
+      "体育",
+      "轻小说",
+      "现实",
+      "军事",
+      "历史",
+      "游戏",
+      "悬疑",
+      "科幻",
+      "诸天无限",
+      "短篇"
+    ],
+    "state": [
+      "全部",
+      "连载",
+      "完本"
+    ],
+    "pz": [
+      "全部",
+      "连载",
+      "完本"
+    ],
+    "size": [
+      "全部",
+      "30万字以下",
+      "30-50万字",
+      "50-100万字",
+      "100-200万字"
+    ],
+    "updateTime": [
+      "全部",
+      "三日内",
+      "七日内",
+      "半月内",
+      "一月内"
+    ]
   },
-  "getDataList": [
-    {
-      "name": "作品1",
-      "text": "2021-01-01",
-      "look": "北京"
-    },
-    {
-      "name": "作品2",
-      "text": "2021-01-02",
-      "look": "上海"
-    },
-    {
-      "name": "作品3",
-      "text": "2021-01-03",
-      "look": "广州"
-    },
-    {
-      "name": "作品4",
-      "text": "2021-01-04",
-      "look": "深圳"
-    }
+  "books": [{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  },{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  },{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  },{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  },{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  },{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  },{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  },{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  },{
+    "title": "宿命之环",
+    "author": "爱潜水的乌贼",
+    "content": "诡秘世界第二部。1368之年，七月之末，深红将从天而降。",
+    "num": "231.21万字",
+    "img": "//bookcover.yuewen.com/qdbimg/349573/1036370336/150.webp"
+  }
   ],
-  "login": {
-    "number": "17624217530",
-    "password": "123456"
+  "detail": {
+    "p1": "诡秘世界第二部。",
+    "p2": "1368之年，七月之末，深红将从天而降。",
+    "p3": "深红，一个ordinary的少年，他拥有一个普通的世界，一个普通的生活，一个普通的家，一个普通的朋友，一个普通的职业，一个普通的工作....."
   }
 }
